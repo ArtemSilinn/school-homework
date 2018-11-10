@@ -14,7 +14,7 @@ bool ch(int a)
 int main()
 {
  int n, b, c, d = 1;
- cin » n;
+ cin >> n;
 
  b = (n % 10);
  c = b;
@@ -28,5 +28,5 @@ int main()
   n /= 10;
   c = (n % 10);
  };
- cout « d;
+ cout << d;
 }
