@@ -10,7 +10,7 @@ int main()
 {
     int n, m, s = 0;
 
-    cin » n;
+    cin >> n;
     m = (n % 10);
 
     while (n >= 1)
@@ -23,5 +23,5 @@ int main()
         m= (n % 10);
     };
 
-    cout « s;
+    cout << s;
 }
