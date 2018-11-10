@@ -21,13 +21,13 @@ int C(int a, int b)
 int main()
 {
  int n, k;
- cin » n » k;
+ cin >> n >> k;
  if (k > n)
  {
-  cout « «нинада»;
+  cout << "нинада";
  }
  else
  {
-  cout « C(n, k);
+  cout << C(n, k);
  };
 }
