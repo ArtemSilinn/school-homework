@@ -20,14 +20,14 @@ int C(int a, int b)
 
 int main()
 {
- int n, m;
- cin » n » m;
- if (m > n)
+ int n, k;
+ cin » n » k;
+ if (k > n)
  {
   cout « «нинада»;
  }
  else
  {
-  cout « C(n, m);
+  cout « C(n, k);
  };
 }
