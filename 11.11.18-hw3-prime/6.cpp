@@ -1,4 +1,4 @@
-*/
+/*
 Напишите программу, выписывающую все элементы последовательности, имеющие не менее пяти делителей
 */
 
@@ -8,14 +8,14 @@ using namespace std;
 int main()
 {
  int n;
- cin » n;
+ cin >: n;
  int *m = new int[n];
 
  for (int i = 0; i < n; i++)
  {
-  cin » *(m + i);
+  cin >> *(m + i);
  };
- cout « '\n';
+ cout << '\n';
  for (int i = 0; i < n; i++)
  {
   int k = 0;
@@ -29,7 +29,7 @@ int main()
   };
   if (k >= 5)
   {
-   cout « q « " ";
+   cout << q << " ";
   };
  };
 }
