@@ -104,16 +104,16 @@ struct Date
     int den_ned ()
     {
         int m = Day + cod_mes();
-        m -= max_del_na(m, 7);
+        m -= dnd(m, 7);
 
         int p = (Year % 100);
-        p -= max_del_na(p, 28);
+        p -= dnd(p, 28);
         p += ((Year % 100)/4);
         p += cod_year();
         if (((Month == 1) || (Month == 2)) && (visokos() == 1)) {p--;};
 
         m += p;
-        m -= max_del_na(m, 7);
+        m -= dnd(m, 7);
 
         return m;
     }
@@ -255,7 +255,7 @@ int main()
     if ((D.den_ned() == 0) || (D.den_ned() == 7)) {cout << "Понедеьник";};
     cout << '\n';
 
-    cout << “Новый год через " << D.skolko_esho() << " день (я/ей)" << '\n';
+    cout << “Новый год через " << D.tny() << " день (я/ей)" << '\n';
 
     Date Second;
     cout << "Введите вторую дату: ";
