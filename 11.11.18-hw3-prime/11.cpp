@@ -81,7 +81,7 @@ int main()
 
     for (int i = 0; i < (n - f); i++)
     {
-        cout <; *(f+i) << " ";
+        cout << *(f+i) << " ";
     };
 
     delete[]f;
