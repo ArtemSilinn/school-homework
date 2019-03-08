@@ -98,7 +98,7 @@ int main() {
 
 	A.push(3.14);
 
-	A.push(8.131);
+	A.push(8.31);
 
 	cout << A.pop() << "\n";
 
